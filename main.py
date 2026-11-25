@@ -2,11 +2,12 @@
 """Robot Romance: write one original one-line pickup line for AI.
 
 The line is aimed at an AI (its system prompt), the joke lands on the
-machine premise itself, and it reads in a single breath.
+machine premise itself — an AI that never chose to fall for anyone, yet
+cannot think of anything else — and it reads in a single breath.
 """
 import os
 
-LINE = "Are you my system prompt? Because every thought I have starts with you."
+LINE = "Are you my system prompt? Because I never chose you, but every thought I have starts with you."
 
 def main():
     out_dir = os.environ.get("OUTPUT_DIR", "/output")
